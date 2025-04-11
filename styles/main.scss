@@ -1,0 +1,9 @@
+@import "./themes/variables"; // IEMPRE primero
+@import "./themes/mixins";    
+@import "./themes/globals";  
+
+/* Usos */
+body {
+    font-family: $font-main;
+    background-color: $primary-color;
+  }
