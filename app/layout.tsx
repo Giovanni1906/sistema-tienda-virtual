@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 
-// Importa primero los estilos globales
-import "@/styles/main.scss";    // Tu SCSS base (variables, mixins, reset)
+import "@/styles/main.scss";    // SCSS base (variables, mixins, reset)
 import "./globals.css";         // Tailwind y utilidades personalizadas
 
 const geistSans = Geist({
@@ -16,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sistema de Tienda Virtual",
+  title: "Digital Ads",
   description: "Login y plataforma para venta de ropa.",
 };
 
